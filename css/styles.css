@@ -206,6 +206,7 @@ img {
   color: var(--primary-white-color);
   margin-bottom: 48px;
 }
+
 .hero-button {
   border: none;
   font-family: Roboto, sans-serif;
@@ -250,7 +251,8 @@ img {
 .work-icon-div {
   display: flex;
   justify-content: center;
-  padding: 24px 100px;
+  height: 112px;
+  align-items: center;
   border-radius: 4px;
   background-color: var(--background-button-color);
 }
@@ -396,8 +398,8 @@ img {
 
   border: 1px solid var(--border-icon-color);
   border-radius: 4px;
-  padding: 16px 32px;
-  width: 168px;
+  justify-content: center;
+  align-items: center;
   height: 88px;
 }
 .customers-link:hover,
